@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // API URLs
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://project-amplify-backend.vercel.app/api';
 const SPOTIFY_API_BASE = 'https://api.spotify.com/v1';
 
 // Axios instance for local server APIs
