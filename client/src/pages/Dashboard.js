@@ -187,7 +187,7 @@ const Dashboard = () => {
   };
 
   const handleSpotifyLogin = () => {
-    window.location.href = 'http://localhost:5000/api/spotify/login';
+    window.location.href = 'https://project-amplify-backend.vercel.app/api/spotify/login';
   };
 
   return (
