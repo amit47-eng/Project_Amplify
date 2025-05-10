@@ -2,7 +2,7 @@ import axios from 'axios';
 import store from './store/index';
 
 const axiosInstance = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://project-amplify-backend.vercel.app/',
   headers: {
     'Content-Type': 'application/json',
   },
